@@ -133,7 +133,7 @@ public class Base {
     @AfterSuite
     public void tearDown() throws Exception {
         driver.quit();
-        Desktop.getDesktop().browse(new File("reports/Extentreport.html").toURI());
+        // Desktop.getDesktop().browse(new File("reports/Extentreport.html").toURI());
     }
     
 
